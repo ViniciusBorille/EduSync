@@ -1,10 +1,13 @@
 import './Login.css';
-import logo_bg from '../../Images/icon_azul_1.png'
+
 import logo_form from '../../Images/logo_hori_azul 1.png'
 
 function Login() {
     return (
+
+        <>
             <div className='body_login'>
+
                 <form className='form_login'>
                     <header className='header_login'>
                         <img src={logo_form} className='logo_form_login'/>
@@ -20,6 +23,7 @@ function Login() {
                     </footer>
                 </form>
             </div>
+          </>
     )
 }
 
