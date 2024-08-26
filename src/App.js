@@ -11,8 +11,7 @@ function App() {
     };
    return(
       <>
-      <Button onClick={handleClick} label="Enviar"/>
-      <Button onClick={handleClick} label="Ola"/>
+      <Login/>
       </>
    ) 
 }

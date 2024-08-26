@@ -1,5 +1,5 @@
 import './Login.css';
-
+import Button from '../../Componentes/button/Button'
 import logo_form from '../../Images/logo_hori_azul 1.png'
 
 function Login() {
@@ -15,11 +15,11 @@ function Login() {
                     <main className='main_form_login'>
                         <input type='text' className='input_form' placeholder='Login' />
                         <input type='password' className='input_form' placeholder='Senha' />
-                        <p>Esqueci minha senha</p>
-                        <input type='button' value='Entrar'/>
+                        <p className=''>Esqueci minha senha</p>
+                        <Button label='Entrar' className='btn_entrar'/>
                     </main>
                     <footer className='footer_form_login'>
-                        <input type='button' value='Fale conosco'/>
+                        <Button label='Fale conosco' className='btn_fale'/>
                     </footer>
                 </form>
             </div>
